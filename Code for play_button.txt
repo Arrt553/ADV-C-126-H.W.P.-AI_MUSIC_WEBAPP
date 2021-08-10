@@ -1,0 +1,30 @@
+.play_button{
+    width: 70px;
+    font-weight: 800;
+    cursor: not-allowed;
+}
+.play_button:hover{
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px 5px double  #3815ff;
+    }
+    to{
+        font-size: 35px;
+        font-family: cursive;
+        border: 6px 7px dashed #ffc400;
+    }
+}
+@keyframes example2{
+    from{
+        box-shadow: 6px 6px 10px #00ffc8; 
+    }
+    to{
+        box-shadow: 6px 6px 10px #ff2b2b;
+    }
+}
